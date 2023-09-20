@@ -1,0 +1,244 @@
+/* Beginning FadeIn Animation */
+@keyframes fadeIn {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+animation: fadeIn 5s infinite;
+
+/* /* End FadeIn Animation */
+
+.row {
+    margin: 0 !important;
+}
+.nav-link {
+    color: #222 !important;
+}
+
+/* styling button */
+.btn-log, .btn-sign, .btn-hero {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-sign, .btn-hero {
+    padding: 8px 22px;
+    background: #5000CA;
+    color: #e4e2e2ed;
+    border-radius: 6px;
+}
+
+.btn-hero {
+    padding: 8px 37px;
+    text-transform: uppercase;
+}
+
+.btn-sign:hover {
+    background: #5a48c5e1;
+}
+
+.herotext h1 {
+    color: #0a042be1;
+}
+
+.spectar {
+    margin: 10% auto;
+}
+
+.spectar1 {
+    margin: 20% auto;
+}
+
+.text-img {
+    padding-left: 20%;
+    animation: fadeIn 8s infinite;
+}
+
+.hero-img-6 {
+    padding-top: 30%;
+    padding-right: 30;
+    animation: fadeIn 8s infinite;
+}
+
+.card-item-footer {
+    background: orangered;
+    padding: 3px;
+}
+
+.herotext1 {
+    color: #0a042be1;
+}
+
+.herotext1 p {
+    color: #0a042be1;
+}
+
+.herotext2 {
+    color: #0a042be1;
+}
+
+.herotext2 p {
+    color: #0a042be1;
+}
+
+.herotext2 {
+    padding-left: 30%;
+    padding-top: 20%;
+}
+
+.card-section-item {
+    background: #5000CA;
+}
+
+.card-overall-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    background: #fff;
+    margin-right: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.herotext3 {
+    padding-top: 10%;
+}
+
+
+.hero-img-7 {
+    padding-top: 20%;
+    animation: fadeIn 10s infinite;
+}
+
+.card-deck {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-header-item, .card-body-item {
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.card-body-item p {
+    padding-top: 30% 10% ;
+}
+
+
+.card-body-item {
+    padding-left: 20px; padding-right: 20px;
+    margin-left: 70px; margin-right: 70px;
+    text-indent: none;
+}
+
+.group{
+    display: inline-block;
+}
+
+.hero-img img{
+    margin-left: 30px;
+    animation: fadeIn 8s infinite;
+}
+
+.class-background {
+    background-color: #5000CA;
+}
+
+
+/* ready to get started box */
+.box {
+    width: 60%;
+    background-color: skyblue;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-left: 100px;
+    margin-left: 400px;
+}
+
+.box .box-header {
+    font-size: medium;
+    padding-top: 20px;
+}
+/* END ready to get started box */
+
+.box-right button {
+    border: none;
+    color: #4a159f;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box-right button {
+    font-size: larger;
+}
+
+.box-para {
+    margin-top: -2px;
+}
+
+.footer-below footer {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    width: 100%;
+    position: absolute;
+}
+
+.all-ready-to-get-started {
+    position: relative;
+    bottom: 50px;
+}
+
+.container p {
+    margin-top: 20px;
+    color: #7e7e7e;
+    padding-left: 13px;
+}
+
+.text-uppercase {
+    color: #dddddd;
+    padding-top: 10px;
+}
+
+/* .text-uppercase .text-white {
+    padding-top: 20px;
+} */
+
+.container img {
+    margin: 5px;
+    padding-left: 10px;
+}
+
+/* card section */
+.card-deck {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* END of card section */
+
+
+@media screen and (max-width: 992px) {
+    .card-overall-section {
+        flex-direction: column;
+    }
+
+    .card-item {
+        margin: 0 0 20px 0;
+    }
+
+    .border-line {
+        margin: opx -5px;
+    }
+
+}
